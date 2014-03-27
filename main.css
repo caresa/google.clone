@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/** { 
+  outline: 1px dotted #999;
+}*/
+#contain{
+	min-width: 980px;
+	min-height: 100%;
+}
+
+::-webkit-scrollbar { 
+	display: none; 
+}
+
+#top{
+	text-align: right;
+	margin-top: 20px;
+	line-height: 1;
+	font-family: arial,sans-serif;
+}
+
+#topRightMenu {
+
+}
+
+	#topRightMenu li {
+		display: inline;
+		padding-right: 20px;
+  		padding: 10px;
+  		color: #534040;
+
+	}
+
+	#topRightMenu li.gridIcon {
+		margin: 0 10px 0 10px;
+		background-image:url('images/grid.png');
+		background-repeat:no-repeat;
+		background-position:center; 
+	}
+	
+	#topRightMenu :last-child{
+		height: 30px;
+		width: 75px;
+		border-radius: 3px;
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+
+
+	}
+	#topRightMenu :last-child button {
+		background:  -webkit-linear-gradient(top,#4387fd,#4683ea);
+		font-family: arial,sans-serif;
+		font-size: 14px;
+		border: white solid 0px;
+	}
+
+#logo{
+	background-image: url('images/google-logo.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: contain;
+    left: 0;
+    right: 0;
+	margin: auto;
+	height: 95px;
+	margin-top: 112px;
+}
+
+#search {
+	position: relative;
+	text-align: center;
+	padding-top: 30px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#search input{
+	height: 2.25em;
+	width:100%;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #dddddd;
+}
+
+	/*#search input :focus{
+	    border:1px solid red;
+	    box-shadow: 0 0 10px #719ECE;
+	}*/
+	#search #mic {
+		background-image: url('images/microphone.png');
+		background-position: right; 
+		background-repeat: no-repeat;
+		position: absolute;
+		top:30px;
+	    right: -6px;
+		margin: auto;
+		background-size: 25px;
+		width: 35px;
+		height: 35px;
+	}
+
+		#search button {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-right: 8px;
+			padding-left: 8px;
+			font-weight: bold;
+			border-radius: 2px;
+			border: 1px solid #dddddd;
+			font: Arial,sans-serif;
+			background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+			color: #444444;
+			margin: 8px;
+			font-size: 11px;
+			/*height: 25px;
+			width: 90px;*/
+		}
+
+#footer {
+	height: 45px;
+	width:100%;
+	position:fixed;
+   	bottom:0px;
+   	background:#f2f2f2;
+   	border: 1px solid #dddddd;
+}
+
+	#footer li{
+		display: inline;
+		padding: 20px;
+		margin-left: 10px;
+		line-height: 50px;
+		color:#66666d;
+		font-family: arial,sans-serif;
+		font-size: small;
+
+	}
+
+	#bottom-left {
+		float: left;
+		white-space: nowrap;
+	}
+
+	#bottom-right {
+		float: right;
+		white-space: nowrap;
+	}
+
+		
+
+
+
